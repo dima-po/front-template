@@ -1,0 +1,16 @@
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+
+.container {
+    width: $content-width;
+    margin: 0 auto;
+    padding: 0;
+}
